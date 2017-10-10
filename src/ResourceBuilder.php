@@ -38,10 +38,10 @@ class ResourceBuilder
      * Specifies list of includes. Useful in case of static import lists.
      *
      * @see includeMatching for more complex cases
-     * @param array $includes
+     * @param array|string $includes
      * @return $this
      */
-    public function including(array $includes)
+    public function including($includes)
     {
         $this->fractal->parseIncludes($includes);
 
