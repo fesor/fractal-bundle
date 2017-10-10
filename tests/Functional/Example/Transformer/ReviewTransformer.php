@@ -2,7 +2,7 @@
 
 namespace Tests\Fesor\FractalBundle\Functional\Example\Transformer;
 
-use Fesor\FractalBundle\Transformer;
+use Fesor\FractalBundle\Fractal\Transformer;
 use Tests\Fesor\FractalBundle\Functional\Example\Model\Review;
 
 class ReviewTransformer extends Transformer

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fesor\FractalBundle;
+namespace Fesor\FractalBundle\Fractal;
 
 use League\Fractal\Manager;
 use League\Fractal\Resource\ResourceInterface;
