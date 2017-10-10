@@ -13,7 +13,7 @@ trait FractalTrait
         return new ResourceBuilder(new Item($data, $transformer));
     }
 
-    public function collection(\iterable $data, $transformer = null)
+    public function collection(iterable $data, $transformer = null)
     {
         return new ResourceBuilder(new Collection($data, $transformer));
     }
